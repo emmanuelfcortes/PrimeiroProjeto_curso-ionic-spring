@@ -1,0 +1,18 @@
+package aplicacao;
+
+import dominio.Pessoa;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+	Pessoa p1 = new Pessoa(1,"Carlos One", "carlos@one.com");
+	Pessoa p2 = new Pessoa(2,"Dom Two", "dom@two.com.br");
+	Pessoa p3 = new Pessoa(3,"Siry Three", "siry@three.com.net");
+	System.out.println(p1);
+	System.out.println(p2);
+	System.out.println(p3);
+
+	}
+
+}

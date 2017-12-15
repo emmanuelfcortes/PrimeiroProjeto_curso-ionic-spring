@@ -1,0 +1,1 @@
+server.port=${port:8080} //define a porta que o servidor vai rodar. Por padrao roda na porta 8080
